@@ -33,6 +33,10 @@
 	text-transform: uppercase;
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    width:100%;
+}
+
 .btn {
 	font-size: 18px;
 	color: #FFF;
@@ -68,6 +72,11 @@ footer{
 .bs-docs-masthead .bs-docs-booticon {
     margin: 0 auto 15px;
 }
+
+.bs-docs-booticon:hover {
+    text-decoration: none;
+}
+
 .bs-docs-booticon-outline {
     background-color: transparent;
     border: 1px solid #cdbfe3;
